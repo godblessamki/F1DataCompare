@@ -1,0 +1,4 @@
+fastf1>=3.3.6
+matplotlib>=3.7
+customtkinter>=5.2.0
+pytest>=7.0
