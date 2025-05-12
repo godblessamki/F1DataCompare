@@ -1,0 +1,12 @@
+# Ignore FastF1 cache
+cache/
+*.ff1pkl
+*.sqlite
+
+# Python cache
+__pycache__/
+*.pyc
+
+# System files
+.DS_Store
+.env
