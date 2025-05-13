@@ -1,7 +1,9 @@
 # f1_backend.py
+import os
 import fastf1
 from typing import Tuple, List, Union
 
+os.makedirs("cache", exist_ok=True)
 fastf1.Cache.enable_cache("cache")
 
 ALLOWED_DRIVERS = {"VER": "Verstappen", "LEC": "Leclerc"}
